@@ -1,0 +1,45 @@
+/* Основные стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c); /* Градиентный фон */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Стили для контейнера с изображением */
+.image-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Стили для фотографий */
+img {
+    width: 300px; /* Размер фото */
+    height: auto;
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Тень */
+}
+
+/* Стили для заголовков */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #ffdd59; /* Желтоватый цвет текста */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень текста */
+}
+
+/* Стили для описаний */
+.description {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Тень текста */
+}
